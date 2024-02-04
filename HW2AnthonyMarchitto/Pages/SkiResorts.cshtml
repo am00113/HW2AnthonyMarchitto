@@ -1,0 +1,43 @@
+﻿@page
+@model HW2AnthonyMarchitto.Pages.SkiResortsModel
+@{
+    ViewData["Title"] = "Ski Resorts in West Virginia";
+}
+
+<h2 class="h2">Ski Resorts in West Virginia</h2>
+<div id="tableWV">
+<table>
+    <tr>
+        <th>Resort</th>
+        <th>Address</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Canaan Valley</td>
+        <td>230 Main Lodge Road</td>
+        <td>Davis, WV 25843</td>
+    </tr>
+    <tr>
+        <td>Timberline Mountain</td>
+        <td>254 Four Seasons Dr</td>
+        <td>Davis, WV 26260</td>
+    </tr>
+</table>
+</div>
+
+<button onclick="showTable()">Show/Hide Table</button>
+<button onclick="document.getElementById('canaanMap').src='canaanmap.png'">Map of Canaan Valley</button>
+<button onclick="document.getElementById('canaanMap').src='timbermap.jpg'">Map of Timberline Mountain</button>
+<img id="canaanMap" src="canaanmap.png" class="rounded" style="width:600px">
+
+
+<script>
+    function showTable() {
+        var x = document.getElementById("tableWV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none"
+        }
+    }
+</script>
