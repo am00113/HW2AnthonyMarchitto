@@ -5,7 +5,7 @@ For my project I wanted to create a website that has important information for s
 Currently I have a basic homepage and a page that includes a table that has basic info about two ski resorts in West Virginia and their respective trail maps.
 
 ## Page Descriptions
-I want my homepage to be a landing point for users that describes what the website is as well as maybe having a search bar in the future.
+I want my homepage to be a landing point for users that describes what the website is as well as having a working search bar in the future.
 So far it has a link to my second page about ski resorts in West Virginia. My second page has a table that includes resorts in WV 
 and images for those resorts.
 
@@ -22,14 +22,14 @@ One tag that I do not recognize is the span tag. For my website I would want to 
 This website has a lot of things that I would like to have in my website. 
 For example, it has the snow reports for ski resorts in the United States and it also has reviews and ratings for each of them as well. 
 This website uses the table and td tag to create a table that has ski resorts and information about them like snowfall, depth, and open lifts. 
-Something that I didn’t recognize was the iframe tag. 
+Something that I didnâ€™t recognize was the iframe tag. 
 
 #### Website #3: SkiCentral
 
 This website divides the country into different regions and allows you to look at ski resorts in those regions. 
 If you click on one of the states the website lists the resorts in that state but also includes pictures of the ski trails as well. 
 It also has a snow report on each resort and has a pie chart showing the number of trails and their difficulty. 
-One thing that I didn’t recognize was the canvas tag, which was used on the pie chart. 
+One thing that I didnâ€™t recognize was the canvas tag, which was used on the pie chart. 
 The pie charts also used bootstrap to format how they looked as well.
 
 #### Repository #1: https://github.com/PritamSarbajna/simple-weather-website?tab=readme-ov-file
