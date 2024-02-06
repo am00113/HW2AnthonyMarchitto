@@ -40,3 +40,20 @@ tr:nth-child(even) {
 h1 {
     color: #99ccff;
 }
+
+.background {
+    background-color: #99ccff;
+}
+
+.spacing {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.spacing2 {
+    padding-bottom: 8rem;
+}
+
+.textColor {
+    color:#99ccff
+}

@@ -47,7 +47,7 @@ country which might be something that I can use.
 
 ## Future Enhancements
 In the future I would like to add more pages for different states and locations around the world. I would also like to add more
-resorts to my existing page as well. I would also like to add a search bar where a user could input a state or zip code and the application
+resorts to my existing page as well. I would also like to make the search bar actually do something so a user could input a state or zip code and the application
 will direct them to a resort where they specified. I would also like to have a page for each resort that I add that will have a image
 of the trail map as well as some basic weather information like temperature and the amount of snow.
 

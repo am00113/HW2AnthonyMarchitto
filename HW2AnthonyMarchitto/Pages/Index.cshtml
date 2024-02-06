@@ -4,10 +4,22 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+<div class="text-center spacing2">
     <h1><b>SkiWorld</b></h1>
     <img id="globe" src="globe.png" style="width:200px"/>
     <h2 class="h2">Information about ski resorts around the world!</h2>
-    <h3 class="h3"">Ski Resorts by State:</h3>
-    <a href="/SkiResorts">West Virginia</a>
+
+    <form id="form" role="search">
+        <input type="search" id="query" name="q"
+               placeholder="Enter a location"
+               aria-label="Search through site content">
+        <button>Search</button>
+    </form>
 </div>
+
+<section class="background spacing">
+    <div>
+        <h3 class="h3" ">Ski Resorts by State:</h3>
+        <a href="/SkiResorts">West Virginia</a>
+    </div>
+</section>
